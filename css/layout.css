@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+}
+
+
+header, footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+header {
+	top: 0;
+	align-items: flex-end;
+}
+
+
+footer {
+	bottom: 0;
+	padding: 0.75em;
+	align-items: center;
+}
+
+
+footer a {
+	margin: 0.25em 1em;
+}
+
+
+header nav {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+header nav a {
+	padding: 0.4em 0.7em;
+	word-break: normal;
+}
+
+
+header nav a:hover, header nav a:focus {
+	padding-bottom: 0.2em;
+}
+
+
+main {
+	position: relative;
+	top: 20vh;
+	padding-bottom: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+/*
+main {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	justify-content: flex-start;
+}
+*/
+
+
+main p {
+	text-align: justify;
+	padding: 0;
+	margin: 1em 0;
+}
+
+
+.div_container {
+	padding: 1.6em 1.7em;
+	margin: 1em auto;
+	width: 65%;
+}
+
+
+#map {
+	width: 650px;
+	height: 400px;
+}
+
+
+
+#map {
+	margin: 2em auto 0 auto;
+	max-height: 100vh;
+	width: 100%;
+}
+
+/*
+
+#stats {
+	max-width: 15%;
+}
+
+*/
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+hr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.tableau caption {
+	padding: 0 0 0.5em 0;
+}
+
+.erreur *, .vert * {
+	margin: 0;
+	padding: 0;
+}
+
+#sousmenu {
+	padding: 1.6em 1.7em;
+	margin: 1em;
+	width: 15vw;
+	position: fixed;
+	float: left;
+	left: 5vw;
+}
+
+#sousmenu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#sousmenu ul p {
+	color: #EEE;
+	padding: 0;
+	margin: 0.2em;
+}
+
+.listeIetPbox {
+	margin-left: 25vw;
+}
